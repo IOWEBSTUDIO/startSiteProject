@@ -1,0 +1,12 @@
+/.*
+/node_modules/**/*
+/bower_components/**/*
+/test/**/*
+/tests/**/*
+/temp/**/*
+/**/temp/
+/docs/
+/package-lock.json
+/startproject.sublime-workspace
+!/.gitignore
+!/.htaccess

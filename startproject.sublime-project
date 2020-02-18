@@ -1,0 +1,32 @@
+{
+	"folders":
+	[
+		{
+			"name": "New Project Site",
+			"path": ".",
+			"folder_exclude_patterns": [
+				".git",
+				"bower_components",
+				"node_modules",
+				"tests",
+				"test",
+				"temp"
+			]
+		}
+	],
+	"settings": {
+		"tab_size": 4
+	},
+	"build_systems": [
+		{
+			"name": "Запуск с сервером",
+			"shell_cmd": "grunt -v dev",
+			"working_dir": "$project_path"
+		},
+		{
+			"name": "Первый запуск сборки",
+			"shell_cmd": "grunt -v",
+			"working_dir": "$project_path"
+		}
+	]
+}
