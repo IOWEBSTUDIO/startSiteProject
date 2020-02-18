@@ -27,17 +27,12 @@
 	},
 	"build_systems": [
 		{
-			"name": "Инициализация проекта",
-			"shell_cmd": "npm_init",
-			"working_dir": "$project_path"
-		},
-		{
-			"name": "Запуск с сервером",
+			"name": "01 Запуск с сервером",
 			"shell_cmd": "grunt -v dev",
 			"working_dir": "$project_path"
 		},
 		{
-			"name": "Первый запуск сборки",
+			"name": "02 Первый запуск сборки",
 			"shell_cmd": "grunt -v",
 			"working_dir": "$project_path"
 		}
