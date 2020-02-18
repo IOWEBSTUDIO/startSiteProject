@@ -13,7 +13,7 @@
 				"temp"
 			],
 			"file_exclude_patterns": [
-				"README",
+				"README.md",
 				"*.cmd",
 				"bower.json",
 				"package.json",
