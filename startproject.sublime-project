@@ -11,6 +11,14 @@
 				"tests",
 				"test",
 				"temp"
+			],
+			"file_exclude_patterns": [
+				"README",
+				"*.cmd",
+				"bower.json",
+				"package.json",
+				"*.sublime-project",
+				"*.sublime-workspace"
 			]
 		}
 	],
